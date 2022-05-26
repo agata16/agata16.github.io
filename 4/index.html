@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Effiteam</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap&subset=latin-ext"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css">
+    <link rel="stylesheet" href="./css/lightbox.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" media="screen and (min-width: 576px)" href="./css/small.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="./css/medium.css">
+    <link rel="stylesheet" media="screen and (min-width: 992px)" href="./css/large.css">
+    <script src="https://kit.fontawesome.com/ee6d6506ad.js" crossorigin="anonymous"></script>
+</head>
+
+<body data-spy="scroll" data-target="#navbar">
+
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <a class="navbar-brand" href="#">effiteam</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#aboutus">o nas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#team">zespół</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        projekty
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#belbin">test belbina</a>
+                        <a class="dropdown-item" href="#conflicts">rozwiązywanie konfliktów</a>
+                        <a class="dropdown-item" href="#motivation">motywacja</a>
+                        <a class="dropdown-item" href="#tutoring ">system korepetycji online</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="header-img os-animation visibility" data-animation="fadeIn" data-delay=".2s"></div>
+    </header>
+
+    <main>
+        <section id="aboutus" class="scroll-fix">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="wrapper">
+                    <h2><span class="brush">o nas</span></h2>
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <p>Jesteśmy zespołem <span>Effiteam</span>, który powstał w ramach realizacji zajęć
+                                Zarządzania Zespołem Pracowniczym na Politechnice Poznańskiej. Tworzymy zgrany i zgodny
+                                zespół składający się z 6 silnych i kreatywnych kobiet. Nazwa Effiteam nie
+                                jest przypadkowa - jest połączeniem słów "efficient" i "team", ponieważ współpracujemy
+                                nad
+                                projektami efektywnie oraz dążymy do realizacji naszych celów.</p>
+                            <br>
+                            <p>Nasze logo składa się z 6 ikon, z których każda oznacza cechę charakterystyczną dla
+                                jednej z Nas:</p>
+                            <ul>
+                                <li><span>Odznaka</span> - przypisałyśmy ją Karolinie, ponieważ jest świadoma swoich
+                                    kompetencji i chętnie się nimi dzieli na forum grupy,</li>
+                                <li><span>Drogowskazy</span> - oznacza łatwość w podejmowaniu decyzji oraz stanowczość
+                                    naszego lidera – Asi,</li>
+                                <li><span>Kalkulator</span> - charakteryzuje umiejętność logicznego myślenia, którym
+                                    kieruje się Agata,</li>
+                                <li><span>Lista kontrolna</span> - oznacza zadaniowość Pauliny, która odpowiedzialnie
+                                    podchodzi do każdego zadania,</li>
+                                <li><span>Dłonie w uścisku</span> - mają przypominać jak ważne w grupie jest
+                                    rozwiązywanie problemów i dobra atmosfera, o co umie zadbać Honorata,</li>
+                                <li><span>Karta z kalendarza</span> - współpraca wymaga systematycznej i terminowej
+                                    pracy, która Ilonie nie sprawia kłopotów.</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 os-animation visibility" data-animation="zoomIn" data-delay=".4s">
+                            <img src="./img/logo.png" alt="Logo Effiteam">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="values">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="wrapper">
+                    <h2><span class="brush">wartości</span></h2>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 values-item os-animation visibility"
+                            data-animation="bounceIn" data-delay=".2s">
+                            <i class="fas fa-comments"></i>
+                            <p class="values-text">współpraca i komunikatywność</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 values-item col-xl-2 values-item os-animation visibility"
+                            data-animation="bounceIn" data-delay=".3s">
+                            <i class="fas fa-compass"></i>
+                            <p class="values-text">skoncentrowanie na cel</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 values-item col-xl-2 values-item os-animation visibility"
+                            data-animation="bounceIn" data-delay=".25s">
+                            <i class="fas fa-thumbs-up"></i>
+                            <p class="values-text">zaangażowanie i odpowiedzialność</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 values-item col-xl-2 values-item os-animation visibility"
+                            data-animation="bounceIn" data-delay=".4s">
+                            <i class="fas fa-glass-cheers"></i>
+                            <p class="values-text">przyjazne relacje</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 values-item col-xl-2 values-item os-animation visibility"
+                            data-animation="bounceIn" data-delay=".15s">
+                            <i class="fas fa-lightbulb"></i>
+                            <p class="values-text">kreatywność i oryginalność</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 values-item col-xl-2 values-item os-animation visibility"
+                            data-animation="bounceIn" data-delay=".45s">
+                            <i class="fas fa-hands-helping"></i>
+                            <p class="values-text">wzajemna pomoc i zaufanie</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 values-item col-xl-2 values-item os-animation visibility"
+                            data-animation="bounceIn" data-delay=".1s">
+                            <i class="fas fa-chart-line"></i>
+                            <p class="values-text">umiejętność wyciągania wniosków</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 values-item col-xl-2 values-item os-animation visibility"
+                            data-animation="bounceIn" data-delay=".55s">
+                            <i class="fas fa-grip-horizontal"></i>
+                            <p class="values-text">sprawiedliwy podział pracy</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 values-item col-xl-2 values-item os-animation visibility"
+                            data-animation="bounceIn" data-delay=".05s">
+                            <i class="fas fa-calendar-alt"></i>
+                            <p class="values-text">terminowość</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 values-item col-xl-2 values-item os-animation visibility"
+                            data-animation="bounceIn" data-delay=".2s">
+                            <i class="fas fa-check"></i>
+                            <p class="values-text">szacunek i akceptacja</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 values-item col-xl-2 values-item os-animation visibility"
+                            data-animation="bounceIn" data-delay=".6s">
+                            <i class="fas fa-seedling"></i>
+                            <p class="values-text">możliwość rozwoju</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 values-item col-xl-2 values-item os-animation visibility"
+                            data-animation="bounceIn" data-delay=".4s">
+                            <i class="fas fa-wallet"></i>
+                            <p class="values-text">sprawiedliwe wynagrodzenie</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="scroll-fix">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="wrapper">
+                    <h2><span class="brush">zespół</span></h2>
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
+                        <div class="col mb-4">
+                            <div class="card os-animation visibility" data-animation="fadeIn" data-delay=".1s">
+                                <img src="./img/placeholder.jpeg" class="card-img-top" alt="Zdjęcie Joanny">
+                                <div class="card-body">
+                                    <h5 class="card-title">Joanna</h5>
+                                    <p class="card-text">Jest liderem Effiteam. Ważnymi wartościami są dla niej
+                                        akceptacja, decyzyjność oraz stanowczość.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card os-animation visibility" data-animation="fadeIn" data-delay=".2s">
+                                <img src="./img/placeholder.jpeg" class="card-img-top" alt="Zdjęcie Honoraty">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ilona</h5>
+                                    <p class="card-text">Odporna na stres, nie boi się konfliktów. Jej mocną stroną jest
+                                        komunikatywność.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card os-animation visibility" data-animation="fadeIn" data-delay=".3s">
+                                <img src="./img/placeholder.jpeg" class="card-img-top" alt="Zdjęcie Karoliny">
+                                <div class="card-body">
+                                    <h5 class="card-title">Honorata</h5>
+                                    <p class="card-text">Jest szczera i świadoma swoich kompetencji. W pracy ceni sobie
+                                        przyjazną atmosferę.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card os-animation visibility" data-animation="fadeIn" data-delay=".1s">
+                                <img src="./img/placeholder.jpeg" class="card-img-top" alt="Zdjęcie Ilony">
+                                <div class="card-body">
+                                    <h5 class="card-title">Paulina</h5>
+                                    <p class="card-text">Pracuje systeamtycznie i zawsze dotrzymuje zadanych terminów.
+                                        Ważną wartością jest dla niej odpowiedzialność.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card os-animation visibility" data-animation="fadeIn" data-delay=".2s">
+                                <img src="./img/placeholder.jpeg" class="card-img-top" alt="Zdjęcie Agaty">
+                                <div class="card-body">
+                                    <h5 class="card-title">Agata</h5>
+                                    <p class="card-text">Kieruje się logicznym myśleniem. Ważne są dla niej uczciwość i
+                                        systematyczność. Jest zawsze gotowa do pomocy innym. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card os-animation visibility" data-animation="fadeIn" data-delay=".3s">
+                                <img src="./img/placeholder.jpeg" class="card-img-top" alt="Zdjęcie Pauliny">
+                                <div class="card-body">
+                                    <h5 class="card-title">Karolina</h5>
+                                    <p class="card-text">Jest odpowiedzialna i zadaniowo podchodzi do projektów. Ważną
+                                        wartością jest dla niej szacunek.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="scroll-fix">
+            <div id="belbin" class="scroll-fix">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="wrapper">
+                        <h2><span class="brush">projekty</span></h2>
+                        <h3>test belbina</h3>
+                        <p>Model M. Belbina jest metodą oceny zachowania i roli członka w zespole. Test
+                            przeprowadziłyśmy również w Effiteam, w celu przypisania każdej z Nas roli w zespole
+                            projektowym. Wyniki analizowałyśmy pod kątem wystąpienia efektu synergii.</p>
+                        <br>
+                        <h4 class="chart-title">Wizualizacja siły ról zespołowych w Effiteam</h4>
+                        <div class="table-responsive os-animation visibility" data-animation="fadeIn">
+                            <canvas id="belbinChart"></canvas>
+                        </div>
+                        <br>
+                        <p>W zespole zrealizowano role:</p>
+                        <div class="row role-list">
+                            <div class="col-6 col-sm-4 col-md-3 col-lg os-animation visibility" data-animation="zoomIn" data-delay=".2s">
+                                <i class="fas fa-cogs"></i>
+                                <p class="role-text">praktyczny organizator </p>
+                                <p>(5 osób)</p>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-3 col-lg os-animation visibility" data-animation="zoomIn" data-delay=".3s">
+                                <i class="fas fa-user-tie"></i>
+                                <p class="role-text">naturalny lider</p>
+                                <p>(1 osoba)</p>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-3 col-lg os-animation visibility" data-animation="zoomIn" data-delay=".15s">
+                                <i class="fas fa-suitcase"></i>
+                                <p class="role-text">człowiek akcji</p>
+                                <p>(2 osoby)</p>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-3 col-lg os-animation visibility" data-animation="zoomIn" data-delay=".35s">
+                                <i class="far fa-lightbulb"></i>
+                                <p class="role-text">siewca</p>
+                                <p>(1 osoba)</p>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-4 col-lg os-animation visibility" data-animation="zoomIn" data-delay=".1s">
+                                <i class="fas fa-phone"></i>
+                                <p class="role-text">człowiek kontaktów</p>
+                                <p>(4 osoby)</p>
+                            </div>
+                            <div class="col-6 col-sm-4 col-md-4 col-lg os-animation visibility" data-animation="zoomIn" data-delay=".5s">
+                                <i class="fas fa-users"></i>
+                                <p class="role-text">człowiek grupy</p>
+                                <p>(3 osoby)</p>
+                            </div>
+                            <div class="col col-sm col-md-4 col-lg os-animation visibility" data-animation="zoomIn" data-delay=".25s">
+                                <i class="fas fa-wrench"></i>
+                                <p class="role-text">perfekcjonista</p>
+                                <p>(4 osoby)</p>
+                            </div>
+                        </div>
+                        <p>Wyznacznikiem było osiągnięcie przez daną rolę siły o wartości 10 (zgodnie z zasadami M.
+                            Belbina). Jedyną brakującą rolą w zespole jest sędzia, ponieważ żadna z osób nie
+                            uzyskała wymaganej liczby punktów. W Effiteam może zatem brakować chłodnego, pozbawionego
+                            emocji spojrzenia. Należy więc uważać na sytuacje, w których zdania będą podzielone i każdy
+                            członek zespołu będzie bronił swojego stanowiska.</p>
+                        <p>Analiza przedstawionych danych pozwala stwierdzić, że rola perfekcjonisty została
+                            zrealizowana w najwyższej sile. Należy spodziewać się, że zadania powierzone zespołowi będą
+                            realizowane na najwyższym możliwym do osiągnięcia poziomie. 1/3 zespołu będzie realizowała
+                            role człowieka grupy. Będą silnie motywować perfekcjonistów w osiągnięciu zamierzonego celu
+                            oraz łagodzić spory. Dzięki nim zespół szybko poradzi sobie w obliczu porażki. Zdecydowana
+                            większość zespołu powinna popracować nad rolą siewcy. W obliczu braku zapotrzebowania na
+                            perfekcjonistę lub człowieka grupy osoby budujące zespół będą się uzupełniać, ponieważ będą
+                            przyjmować różne role. Jak zauważono wyżej będzie brakowało roli sędziego, jednak wynik 7
+                            lub 8 uzyskany przez Joannę i Paulinę oraz sprzyjająca sytuacja konfliktowa może sprawić, że
+                            któraś z tych osób przejmie tę rolę.</p>
+                    </div>
+
+                </div>
+            </div>
+            <div id="conflicts" class="scroll-fix">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="wrapper">
+                        <h3>rozwiązywanie konfliktów w zespole</h3>
+                        <p>Konflikty to stałe elementy w funkcjonowaniu każdego zespołu. Nie da się ich wyeliminować -
+                            nawet nie jest to pożądane! Pozytywny stosunek zespołu do konfliktów i umiejętność ich
+                            rozwiązywania może pomagać w rozwijaniu zespołu i znalezienia oryginalnych koncepcji. W
+                            poniższym filmiku przedstawiłyśmy sposób rozwiązania konfliktu, gdy członek zespołu nie
+                            wywiązuje się z terminów realizacji zadań.</p>
+                        <div class="video-wrapper os-animation visibility" data-animation="fadeIn" data-delay=".2">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/ScMzIvxBSi4"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="motivation" class="scroll-fix">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="wrapper">
+                        <h3>motywacja w zespole</h3>
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <p>Za pomocą mapy myśli graficznie przedstawiłyśmy system motywacyjny naszej grypy.
+                                    Zadanie rozpoczęłyśmy od wspólnej rozmowy, podczas której każda z Nas powiedziała
+                                    kilka zdań podsumowania dotychczasowej współpracy. W następnym etapie zastanowiłyśmy
+                                    się, jak jeszcze bardziej usprawnić pracę w naszym zespole. Na grafice pokazałyśmy
+                                    jak wygląda praca w Effiteam obecnie, co chciałybyśmy zmienić oraz jakie działania
+                                    mogłyby poprawić jakość naszej współpracy.</p>
+                                <p>Jesteśmy zgranym zespołem, mamy szacunek do siebie nawzajem. Mimo że mamy odmienne
+                                    zdania i pomysły, to szanujemy nasze poglądy i dążymy razem do wspólnego celu.
+                                    Usystematyzowanie planu pracy może usprawnić wykonywanie zadań. Mamy wspólne
+                                    potrzeby i motywacje. Nasza praca polega nie tylko na wykonywaniu zadań, ale też na
+                                    dzieleniu się wiedzą, doświadczeniem i umiejętnościami. Dopełniamy się i tym samym
+                                    wzajemnie motywujemy. Z perspektywy czasu każde kolejne zadanie pomaga nam poznać
+                                    siebie nawzajem oraz wykonywać je sprawniej nie tracąc przy tym jakości.</p>
+                            </div>
+                            <div class="col-lg-4 os-animation visibility" data-animation="bounceIn" data-delay=".3s">
+                                <a href="./img/motywacja.png" data-lightbox="image-1">
+                                    <img src="./img/motywacja.png"
+                                        alt="System motywacyjny Effiteam przedstawiony na mapie myśli">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tutoring" class="scroll-fix">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="wrapper">
+                        <h3>system korepetycji online</h3>
+                        <p>Celem tego projektu była analiza dostępnych, internetowych narzędzi do przeprowadzania
+                            korepetycji online oraz wybranie najbardziej efektywnej opcji do pracy.</p>
+                        <div class="row justify-content-center">
+                            <a href="./img/tutoring1.jpg" data-lightbox="roadtrip">
+                                <img src="./img/tutoring1.jpg" alt="Spis treści opracowania system korepetycji online" class="os-animation visibility" data-animation="zoomIn" data-delay=".1s">
+                            </a>
+                            <a href="./img/tutoring2.jpg" data-lightbox="roadtrip">
+                                <img src="./img/tutoring2.jpg" alt="Cel projektu system korepetycji online" class="os-animation visibility" data-animation="zoomIn" data-delay=".15s">
+                            </a>
+                            <a href="./img/tutoring3.jpg" data-lightbox="roadtrip">
+                                <img src="./img/tutoring3.jpg" alt="Wstęp opracowania system korepetycji online" class="os-animation visibility" data-animation="zoomIn" data-delay=".2s">
+                            </a>
+                            <div class="document-download os-animation visibility" data-animation="zoomIn" data-delay=".3s">
+                                <p><a download href="" onclick="return false;">Pobierz opracowanie</a> <i class="fas fa-file-download"></i></p>
+                                <p class="text-muted">Dokument PDF 12MB</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="scroll-fix">
+            <div class="jumbotron jumbotron-fluid">
+                <h2><span class="brush">kontakt</span></h2>
+                <p><i class="fas fa-phone"></i> +48 000 000 000</p>
+                <p><i class="fas fa-at"></i> effiteam6-example@gmail.com</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2020 Effiteam Agata Łuczak</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    <script src="./js/lightbox-plus-jquery.min.js"></script>
+    <script src="./js/animation.js"></script>
+    <script src="./js/jquery.waypoints.min"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

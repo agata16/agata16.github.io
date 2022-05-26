@@ -1,0 +1,278 @@
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  font-family: 'Rubik', sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+.wrapper {
+  max-width: 2560px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.brush {
+  background-image: url("../img/brush.png");
+  background-size: 100% 95%;
+  padding: 8px 35px;
+}
+
+.scroll-fix::before {
+  content: '';
+  display: block;
+  height: 56px;
+  margin-top: -56px;
+}
+
+.visibility {
+  visibility: hidden;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+.jumbotron h2 {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+nav {
+  text-transform: uppercase;
+  background-color: #f9ddca;
+}
+
+nav .navbar-brand {
+  font-weight: bold;
+}
+
+nav a {
+  color: #000;
+}
+
+nav a:hover, nav .active {
+  color: #808080;
+}
+
+nav .dropdown-menu {
+  background-color: #f9ddca;
+}
+
+nav .dropdown-menu .dropdown-item:hover, nav .dropdown-menu .active {
+  background-color: #f9ddca;
+  color: #808080;
+}
+
+header {
+  background-color: #f9ddca;
+}
+
+header .header-img {
+  position: relative;
+  height: 100vh;
+  background-image: url("../img/logo.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#aboutus .row span {
+  font-weight: bold;
+}
+
+#aboutus img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  margin-top: 20px;
+  width: 100%;
+}
+
+#values {
+  text-align: center;
+}
+
+#values .jumbotron {
+  background-color: #f8f8f8;
+}
+
+#values .values-item {
+  padding: 10px 10px;
+}
+
+#values i {
+  padding: 20px;
+  font-size: 46px;
+  color: #808080;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+}
+
+#values i:hover {
+  color: #f9ddca;
+}
+
+#values .values-text {
+  font-size: 18px;
+}
+
+#team .card {
+  height: 100%;
+  border: none;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+  text-align: center;
+}
+
+#team .card img {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  height: 250px;
+  width: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 1em #808080;
+          box-shadow: 0 0 1em #808080;
+}
+
+#team .card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+#projects h3 {
+  text-transform: uppercase;
+}
+
+#projects #belbin .jumbotron {
+  background-color: #f8f8f8;
+}
+
+#projects #belbin .chart-title {
+  text-align: center;
+}
+
+#projects #belbin canvas {
+  display: block;
+  margin: 0 auto;
+  width: 800px;
+  height: 400px;
+}
+
+#projects #belbin .role-list {
+  text-align: center;
+}
+
+#projects #belbin .role-list .role-text {
+  margin-bottom: 0;
+}
+
+#projects #belbin .role-list i {
+  padding: 10px;
+  font-size: 40px;
+  color: #808080;
+}
+
+#projects #conflicts .video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+#projects #conflicts .video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#projects #motivation .jumbotron {
+  background-color: #f8f8f8;
+}
+
+#projects #motivation img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 300px;
+  height: 235px;
+  -webkit-transition: border .3s;
+  transition: border .3s;
+}
+
+#projects #motivation img:hover {
+  border: 1px solid #808080;
+}
+
+#projects #tutoring img {
+  width: 100px;
+  margin: 0 5px;
+  -webkit-transition: border .3s;
+  transition: border .3s;
+}
+
+#projects #tutoring img:hover {
+  border: 1px solid #808080;
+}
+
+#projects #tutoring .document-download {
+  padding: 10px;
+  text-align: center;
+}
+
+#projects #tutoring .document-download a {
+  font-size: 24px;
+}
+
+#projects #tutoring .document-download i {
+  padding: 10px;
+  font-size: 28px;
+  color: #414141;
+}
+
+#contact {
+  text-align: center;
+  font-size: 26px;
+}
+
+#contact .jumbotron {
+  background-color: #f8f8f8;
+}
+
+#contact i {
+  padding: 10px;
+}
+
+footer {
+  background-color: #f9ddca;
+}
+
+footer p {
+  padding: 20px;
+  margin-bottom: 0;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
