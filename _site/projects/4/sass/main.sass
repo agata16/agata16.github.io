@@ -1,0 +1,235 @@
+$logo-color: #f9ddca
+$grey-bgc-color: #f8f8f8
+
+*, *::after, *::before
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+
+html
+    scroll-behavior: smooth
+
+body
+    position: relative
+    font-family: 'Rubik', sans-serif
+    background-color: #fff
+    color: #000
+
+.wrapper
+    max-width: 2560px
+    width: 80%
+    margin: 0 auto
+
+.brush
+    background-image: url('../img/brush.png')
+    background-size: 100% 95%
+    padding: 8px 35px
+
+.scroll-fix::before
+    content: ''
+    display: block
+    height: 56px
+    margin-top: -56px
+
+.visibility
+    visibility: hidden
+
+.jumbotron
+    margin-bottom: 0
+    background-color: #fff
+    h2
+        margin-bottom: 30px
+        text-transform: uppercase
+        text-align: center
+
+// NAVIGATION
+nav
+    text-transform: uppercase
+    background-color: $logo-color
+
+    .navbar-brand
+        font-weight: bold
+
+    a
+        color: #000
+
+    a:hover, .active
+        color: #808080
+
+    .dropdown-menu
+        background-color: $logo-color
+
+        .dropdown-item:hover, .active
+            background-color: $logo-color
+            color: #808080
+
+// HEADER
+header
+    background-color: $logo-color  
+    .header-img
+        position: relative
+        height: 100vh
+        background-image: url('../img/logo.png')
+        background-size: contain
+        background-position: center
+        background-repeat: no-repeat
+
+// MAIN
+#aboutus
+    .row span
+        font-weight: bold
+
+    img
+        position: relative
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        margin-top: 20px
+        width: 100%
+
+#values
+    text-align: center
+
+    .jumbotron
+        background-color: $grey-bgc-color
+
+    .values-item
+        padding: 10px 10px
+
+    i
+        padding: 20px
+        font-size: 46px
+        color: #808080
+        transition: color .3s
+
+    i:hover
+        color: $logo-color
+
+    .values-text
+        font-size: 18px
+
+#team
+    .card
+        height: 100%
+        border: none
+        transition: transform .3s
+        text-align: center
+
+        img
+            position: relative
+            left: 50%
+            transform: translate(-50%)
+            height: 250px
+            width: 200px
+            object-fit: cover
+            border-radius: 50%
+            box-shadow: 0 0 1em #808080
+
+    .card:hover
+        transform: scale(1.05)
+
+#projects
+    h3
+        text-transform: uppercase
+
+    #belbin
+        .jumbotron
+            background-color: $grey-bgc-color
+
+        .chart-title
+            text-align: center
+
+        canvas
+            display: block
+            margin: 0 auto
+            width: 800px
+            height: 400px
+
+        .role-list
+            text-align: center
+
+            .role-text
+                margin-bottom: 0
+
+            i
+                padding: 10px
+                font-size: 40px
+                color: #808080
+
+    #conflicts
+        .video-wrapper
+            position: relative
+            padding-bottom: 56.25%
+            height: 0
+
+        .video-wrapper iframe
+            position: absolute
+            top: 0
+            left: 0
+            width: 100%
+            height: 100%
+
+    #motivation
+        .jumbotron
+            background-color: $grey-bgc-color
+ 
+        img
+            position: relative
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+            width: 300px
+            height: 235px
+            transition: border .3s
+
+        img:hover
+            border: 1px solid #808080
+
+    #tutoring
+        img
+            width: 100px
+            margin: 0 5px
+            transition: border .3s
+
+        img:hover
+            border: 1px solid #808080
+        
+        .document-download
+            padding: 10px
+            text-align: center
+            a
+                font-size: 24px
+
+            i
+                padding: 10px
+                font-size: 28px
+                color: #414141
+
+#contact
+    .jumbotron
+        background-color: $grey-bgc-color
+
+    text-align: center
+    font-size: 26px
+    i
+        padding: 10px
+
+// FOOTER
+footer
+    background-color: $logo-color
+    p
+        padding: 20px
+        margin-bottom: 0
+        text-align: center
+    
+
+
+
+            
+
+    
+    
+
+
+        
+        
