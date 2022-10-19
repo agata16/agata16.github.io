@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator>
   <link href="https://github.com/jeromelachaud/freelancer-theme/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://github.com/jeromelachaud/freelancer-theme/" rel="alternate" type="text/html" />
-  <updated>2022-10-13T20:13:47+02:00</updated>
+  <updated>2022-10-19T13:21:09+02:00</updated>
   <id>https://github.com/jeromelachaud/freelancer-theme/</id>
 
   
@@ -22,8 +22,8 @@
     <entry>
       <title type="html">Projekt 1</title>
       <link href="https://github.com/jeromelachaud/freelancer-theme/" rel="alternate" type="text/html" title="Projekt 1" />
-      <published>2014-07-18T00:00:00+02:00</published>
-      <updated>2014-07-18T00:00:00+02:00</updated>
+      <published>2022-10-19T00:00:00+02:00</published>
+      <updated>2022-10-19T00:00:00+02:00</updated>
       <id>https://github.com/jeromelachaud/freelancer-theme/projekt-1</id>
       <content type="html" xml:base="https://github.com/jeromelachaud/freelancer-theme/"></content>
 
@@ -54,8 +54,8 @@
     <entry>
       <title type="html">Projekt 2</title>
       <link href="https://github.com/jeromelachaud/freelancer-theme/" rel="alternate" type="text/html" title="Projekt 2" />
-      <published>2014-07-17T00:00:00+02:00</published>
-      <updated>2014-07-17T00:00:00+02:00</updated>
+      <published>2022-10-18T00:00:00+02:00</published>
+      <updated>2022-10-18T00:00:00+02:00</updated>
       <id>https://github.com/jeromelachaud/freelancer-theme/projekt-2</id>
       <content type="html" xml:base="https://github.com/jeromelachaud/freelancer-theme/"></content>
 
@@ -86,8 +86,8 @@
     <entry>
       <title type="html">Projekt 3</title>
       <link href="https://github.com/jeromelachaud/freelancer-theme/" rel="alternate" type="text/html" title="Projekt 3" />
-      <published>2014-07-16T00:00:00+02:00</published>
-      <updated>2014-07-16T00:00:00+02:00</updated>
+      <published>2022-10-17T00:00:00+02:00</published>
+      <updated>2022-10-17T00:00:00+02:00</updated>
       <id>https://github.com/jeromelachaud/freelancer-theme/projekt-3</id>
       <content type="html" xml:base="https://github.com/jeromelachaud/freelancer-theme/"></content>
 
@@ -118,8 +118,8 @@
     <entry>
       <title type="html">Projekt 4</title>
       <link href="https://github.com/jeromelachaud/freelancer-theme/" rel="alternate" type="text/html" title="Projekt 4" />
-      <published>2014-07-15T00:00:00+02:00</published>
-      <updated>2014-07-15T00:00:00+02:00</updated>
+      <published>2022-10-16T00:00:00+02:00</published>
+      <updated>2022-10-16T00:00:00+02:00</updated>
       <id>https://github.com/jeromelachaud/freelancer-theme/projekt-4</id>
       <content type="html" xml:base="https://github.com/jeromelachaud/freelancer-theme/"></content>
 
@@ -148,11 +148,11 @@
     </entry>
   
     <entry>
-      <title type="html">Project 6</title>
-      <link href="https://github.com/jeromelachaud/freelancer-theme/" rel="alternate" type="text/html" title="Project 6" />
-      <published>2014-07-15T00:00:00+02:00</published>
-      <updated>2014-07-15T00:00:00+02:00</updated>
-      <id>https://github.com/jeromelachaud/freelancer-theme/project-6</id>
+      <title type="html">Projekt 5</title>
+      <link href="https://github.com/jeromelachaud/freelancer-theme/" rel="alternate" type="text/html" title="Projekt 5" />
+      <published>2022-10-15T00:00:00+02:00</published>
+      <updated>2022-10-15T00:00:00+02:00</updated>
+      <id>https://github.com/jeromelachaud/freelancer-theme/projekt-5</id>
       <content type="html" xml:base="https://github.com/jeromelachaud/freelancer-theme/"></content>
 
       
@@ -168,8 +168,6 @@
       </author>
 
       
-        <category term="Web Development" />
-      
 
       
 
@@ -182,11 +180,11 @@
     </entry>
   
     <entry>
-      <title type="html">Projekt 5</title>
-      <link href="https://github.com/jeromelachaud/freelancer-theme/" rel="alternate" type="text/html" title="Projekt 5" />
-      <published>2014-07-14T00:00:00+02:00</published>
-      <updated>2014-07-14T00:00:00+02:00</updated>
-      <id>https://github.com/jeromelachaud/freelancer-theme/projekt-5</id>
+      <title type="html">Projekt 6</title>
+      <link href="https://github.com/jeromelachaud/freelancer-theme/" rel="alternate" type="text/html" title="Projekt 6" />
+      <published>2022-10-14T00:00:00+02:00</published>
+      <updated>2022-10-14T00:00:00+02:00</updated>
+      <id>https://github.com/jeromelachaud/freelancer-theme/projekt-6</id>
       <content type="html" xml:base="https://github.com/jeromelachaud/freelancer-theme/"></content>
 
       
